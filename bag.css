@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.cont{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+body{
+    margin-left: 4%;
+    padding: 8px;
+}
+.pd{
+    position: absolute;
+    top: 25%;
+    margin-left: 5px;
+}
+.pd1{
+    position: absolute;
+    top: 43%;
+    margin-left: 5px;
+}
+button{
+    border-radius: 20px;
+    padding: 8px;
+    border: 1px;
+    color: white;
+    border-color: rgb(98, 108, 134);
+    background-color: rgb(92, 106, 145);
+}
+.address{
+    border: 1px solid rgb(230, 230, 230);
+    background-color: rgb(230, 230, 230);
+    padding: 8px;
+    width: 300px;
+}
+.options{
+    border: 1px solid gainsboro;
+    width: 30%;
+    position: absolute;
+    top: 45%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: gray 1px 1px 1px 1px;
+    width: 350px;
+    border-radius: 2px;
+}
+.sin{
+    border: 1px solid gainsboro;
+    padding: 8px;
+    
+}
+.exp{
+    border: 1px solid gainsboro;
+    padding: 8px;
+}
+.self{
+    border: 1px solid gainsboro;
+    padding: 8px;
+}
+.pay{
+    border:1px solid gainsboro;
+    width: 30%;
+    position: absolute;
+    top:105%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: gray 1px 1px 1px 1px;
+    width: 350px;
+    border-radius: 2px;
+    
+}
+.accept{
+    border: 1px solid gainsboro;
+    padding: 8px;
+    
+}
+.credit{
+    border: 1px solid gainsboro;
+    padding: 8px;
+    
+}
+.right{
+    width: 30%;
+    position: absolute;
+    top: 135%;
+}
+.ord{
+    border-bottom: 1px solid gainsboro;
+    position: relative;
+    padding: 20px;
+    background-color: white;
+    box-shadow: gray 1px 1px 1px 1px;
+    width: 350px;
+    border-radius: 2px;
+}
+.order{
+    border-bottom: 1px solid gainsboro;
+    position: relative;
+    padding: 20px;
+    background-color: white;
+    box-shadow: gray 1px 1px 1px 1px;
+    width: 350px;
+    border-radius: 2px;
+    
+}
+span{
+    margin-top: 3px;
+    color: gray;
+    font-size: 13px;
+}
+.use1{
+    border-bottom: 1px solid gainsboro;
+    position: absolute;
+    top: 94%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: gray 1px 1px 1px 1px;
+    width: 350px;
+    height: 500px;
+    border-radius: 2px;
+}
+.fa-cc-visa{
+    margin-left: 5px;
+}
+.paypal{
+    margin-left: 5px;
+}
+.fa-cc-paypal{
+    margin-left: 10px;
+}
+.use{
+   position: absolute;
+   top: 20px;
+    padding: 8px;
+}
+.str{
+    display: flex;
+}
+.plain{
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+    padding: 8px;
+    background-color: white;
+    width: 60%;
+}
+.str button{
+    margin-left: 4px;
+    padding: 8px;
+}
+.promo{
+    display: flex;
+    border-bottom: 1px solid gainsboro;
+    padding: 20px;
+    margin-top: 20%;
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    font-size: 12px;
+}
+.en1{
+    margin-left:35% ;
+    padding: 8px;
+}
+.gift{
+    display: flex;
+    border-bottom: 1px solid gainsboro;
+    padding: 20px;
+    margin-top: 30%;
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    font-size: 12px;
+}
+.en2{
+    margin-left: 47%;
+    padding: 8px;
+}
+.total{
+    display: flex;
+    padding: 8px;
+    
+}
+.total1{
+    border-bottom: 1px solid gainsboro;
+    padding: 20px;
+    margin-top: 40%;
+    position: absolute;
+    width: 300px;
+    
+}
+.en3{
+    margin-left: 52%;
+    padding: 8px;
+}
+.sub{
+    padding: 8px;
+}
+.bn button{
+    width: 90%;
+    margin-left: 15px;
+}
+#b1{
+    position: relative;
+    padding: 20px;
+    background-color: white;
+    box-shadow: gray 1px 1px 1px 1px;
+    width: 350px;
+    border-radius: 2px;
+}
+#s1{
+    position: absolute;
+    top:5%;
+    left: 40px;
+    margin-top: 2px;
+    
+}
+@media (min-width: 800px){
+  .right{
+    position:absolute;
+    top: 5%;
+    left: 50%;
+    margin-top: 10px;
+  }
+  .cont{
+    position: absolute;
+    left: 40%;
+    top: 10%;
+  }
+  .che{
+    margin-left: 550px;
+    font-size: 20px;
+  }
+  .b1{
+    position: absolute;
+    left: 40%;
+    top: 10%;
+  }
+  .left{
+    margin-left: 250px;
+    margin-top: 5px;
+  }
+  .options{
+    margin-left: 250px;
+    position: absolute;
+    top: 300px;
+  }
+  .pay{
+    margin-left: 250px;
+    position: absolute;
+    top: 700px;
+  }
+  .ord{
+    display: flex;
+  }
+  .order{
+    display: flex;
+  }
+  .prod{
+    position: absolute;
+    top: 10%;
+    left: 44%;
+  }
+  .ordersum{
+    position: absolute;
+    top: 18px;
+    left:40px;
+  }
+}
